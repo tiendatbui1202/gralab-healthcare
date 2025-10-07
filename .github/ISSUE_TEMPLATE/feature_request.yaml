@@ -19,10 +19,10 @@ body:
         Please keep in mind that we get many many requests and we can't possibly work on all of them, we prioritize development based on the goals of the product and organization. Feature requests are still welcome as it helps us in research when we do decide to work on the requested feature.
 
         If you're in urgent need to a feature, please try the following channels to get paid developments done quickly:
-        1. Certified Frappe partners: https://frappe.io/partners
+        1. Certified Gralab partners: https://frappe.io/partners
         2. Telegram group for Marley Health development work: https://t.me/frappehealth
-        3. Healthcare Category on Frappe forum: https://discuss.frappe.io/c/healthcare/58
-        4. Developer community on Frappe forum: https://discuss.frappe.io/c/developers/5
+        3. Healthcare Category on Gralab forum: https://discuss.frappe.io/c/healthcare/58
+        4. Developer community on Gralab forum: https://discuss.frappe.io/c/developers/5
 
   - type: textarea
     id: problem-info

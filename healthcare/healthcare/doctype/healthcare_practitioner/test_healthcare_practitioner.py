@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2018, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2018, Gralab Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 
-class TestHealthcarePractitioner(FrappeTestCase):
+class TestHealthcarePractitioner(GralabTestCase):
 	def test_practitioner_mandatory_charges(self):
 		fieldnames = ["op_consulting_charge", "inpatient_visit_charge"]
 		for idx, fieldname in enumerate(fieldnames):

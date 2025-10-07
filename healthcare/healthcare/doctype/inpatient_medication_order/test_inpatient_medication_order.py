@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2020, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2020, Gralab Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 from frappe.utils import add_days, getdate, now_datetime
 
 from healthcare.healthcare.doctype.inpatient_record.inpatient_record import (
@@ -20,7 +20,7 @@ from healthcare.healthcare.doctype.inpatient_record.test_inpatient_record import
 )
 
 
-class TestInpatientMedicationOrder(FrappeTestCase):
+class TestInpatientMedicationOrder(GralabTestCase):
 	def setUp(self):
 		frappe.db.sql("""delete from `tabInpatient Record`""")
 		self.patient = create_patient()

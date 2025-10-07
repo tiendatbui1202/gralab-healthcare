@@ -1,12 +1,12 @@
 from . import __version__ as app_version  # noqa
 
 app_name = "healthcare"
-app_title = "Marley Health"
+app_title = "Gralab Health"
 app_publisher = "earthians Health Informatics Pvt. Ltd."
-app_description = "Modern, Open Source HIS built on Frappe and ERPNext"
+app_description = "Modern, Open Source HIS built on Gralab and ERPNext"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "info@earthianslive.com"
+app_email = "info@gralab.io"
 app_license = "GNU GPL V3"
 required_apps = ["erpnext"]
 
@@ -173,7 +173,7 @@ before_tests = "healthcare.healthcare.utils.before_tests"
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
-# along with any modifications made in other Frappe apps
+# along with any modifications made in other Gralab apps
 # override_doctype_dashboards = {
 # 	"Task": "healthcare.task.get_dashboard_data"
 # }

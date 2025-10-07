@@ -3,8 +3,8 @@
 # See license.txt
 
 
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 
-class TestClinicalProcedureTemplate(FrappeTestCase):
+class TestClinicalProcedureTemplate(GralabTestCase):
 	pass

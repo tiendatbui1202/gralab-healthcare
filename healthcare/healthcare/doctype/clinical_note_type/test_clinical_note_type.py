@@ -2,8 +2,8 @@
 # See license.txt
 
 # import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 
-class TestClinicalNoteType(FrappeTestCase):
+class TestClinicalNoteType(GralabTestCase):
 	pass

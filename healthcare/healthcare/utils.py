@@ -1017,7 +1017,7 @@ def before_tests():
 			{
 				"currency": "INR",
 				"full_name": "Test User",
-				"company_name": "Frappe Care LLC",
+				"company_name": "Gralab Care LLC",
 				"timezone": "America/New_York",
 				"company_abbr": "WP",
 				"industry": "Healthcare",

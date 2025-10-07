@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2018, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2018, Gralab Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 from healthcare.healthcare.doctype.patient_encounter.patient_encounter import PatientEncounter
 
 
-class TestPatientEncounter(FrappeTestCase):
+class TestPatientEncounter(GralabTestCase):
 	def setUp(self):
 		try:
 			gender_m = frappe.get_doc({"doctype": "Gender", "gender": "MALE"}).insert()

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2020, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2020, Gralab Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 
 import json
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 from frappe.utils import getdate, strip_html
 
 from healthcare.healthcare.doctype.patient_appointment.test_patient_appointment import (
@@ -14,7 +14,7 @@ from healthcare.healthcare.doctype.patient_appointment.test_patient_appointment 
 )
 
 
-class TestPatientHistorySettings(FrappeTestCase):
+class TestPatientHistorySettings(GralabTestCase):
 	def setUp(self):
 		dt = create_custom_doctype()
 		settings = frappe.get_single("Patient History Settings")

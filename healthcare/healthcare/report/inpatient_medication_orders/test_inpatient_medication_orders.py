@@ -1,11 +1,11 @@
-# Copyright (c) 2018, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2018, Gralab Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
 import datetime
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 from frappe.utils import getdate, now_datetime
 
 from healthcare.healthcare.doctype.inpatient_medication_order.test_inpatient_medication_order import (
@@ -28,7 +28,7 @@ from healthcare.healthcare.report.inpatient_medication_orders.inpatient_medicati
 )
 
 
-class TestInpatientMedicationOrders(FrappeTestCase):
+class TestInpatientMedicationOrders(GralabTestCase):
 	@classmethod
 	def setUpClass(self):
 		frappe.db.sql("delete from `tabInpatient Medication Order` where company='_Test Company'")

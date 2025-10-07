@@ -50,9 +50,9 @@ body:
     id: exact-version
     attributes:
       label: Version
-      description: Share exact version number of Frappe, ERPNext and Marley Health you are using.
+      description: Share exact version number of Gralab, ERPNext and Marley Health you are using.
       placeholder: |
-        Frappe version -
+        Gralab version -
         ERPNext version -
         Marley Health version -
     validations:
@@ -63,7 +63,7 @@ body:
     attributes:
       label: Installation method
       options:
-        - Frappe Cloud
+        - Gralab Cloud
         - docker
         - easy-install
         - manual install

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2017, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2017, Gralab Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 
-class TestCodeSystem(FrappeTestCase):
+class TestCodeSystem(GralabTestCase):
 	pass

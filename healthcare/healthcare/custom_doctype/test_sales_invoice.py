@@ -1,10 +1,10 @@
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 test_records = frappe.get_test_records("Sales Invoice")
 
 
-class TestSalesInvoice(FrappeTestCase):
+class TestSalesInvoice(GralabTestCase):
 	def test_set_healthcare_services_should_preserve_state(self):
 		invoice = frappe.copy_doc(test_records[0])
 

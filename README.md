@@ -19,7 +19,7 @@
 
 ### Introduction
 
-Marley Health enables the health domain in ERPNext and has various features that will help healthcare practitioners, clinics and hospitals to leverage the power of Frappe and ERPNext. It is built on Frappe, a full-stack, meta-data driven, web framework, and integrates seamlessly with ERPNext, the most agile ERP software. Marley Health helps to manage healthcare workflows efficiently and most of the design is based on HL7 FHIR (Fast Health Interoperability Resources).
+Marley Health enables the health domain in ERPNext and has various features that will help healthcare practitioners, clinics and hospitals to leverage the power of Gralab and ERPNext. It is built on Gralab, a full-stack, meta-data driven, web framework, and integrates seamlessly with ERPNext, the most agile ERP software. Marley Health helps to manage healthcare workflows efficiently and most of the design is based on HL7 FHIR (Fast Health Interoperability Resources).
 
 
 ### Key Features

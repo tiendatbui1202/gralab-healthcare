@@ -4,7 +4,7 @@
 
 
 import frappe
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 from frappe.utils import add_days, nowdate
 
 from erpnext.accounts.doctype.pos_profile.test_pos_profile import make_pos_profile
@@ -17,7 +17,7 @@ from healthcare.healthcare.doctype.patient_appointment.test_patient_appointment 
 )
 
 
-class TestPatientMedicalRecord(FrappeTestCase):
+class TestPatientMedicalRecord(GralabTestCase):
 	def setUp(self):
 		frappe.db.set_single_value("Healthcare Settings", "enable_free_follow_ups", 0)
 		frappe.db.set_single_value("Healthcare Settings", "show_payment_popup", 1)

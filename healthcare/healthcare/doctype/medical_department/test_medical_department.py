@@ -3,10 +3,10 @@
 # See license.txt
 
 
-from frappe.tests.utils import FrappeTestCase
+from frappe.tests.utils import GralabTestCase
 
 # test_records = frappe.get_test_records('Medical Department')
 
 
-class TestMedicalDepartment(FrappeTestCase):
+class TestMedicalDepartment(GralabTestCase):
 	pass
